@@ -2,11 +2,31 @@
 <html lang="en">    
 <head>
     <meta charset="UTF-8">
- <title>Rock Paper Scissors</title>
+ <style>
+    body {
+        background-color: rgb(8, 207, 221);
+    }
+    </style>
+    
+ <link rel="stylesheet" href="rpps.css">
+</head>
  <body>
-    <script src = "rps.js"></script>
-    <script>
-        console.log("Welcome to Rock Paper Scissors!");
-    </script>
+
+    <h1 id="title">Pick Rock, Paper or Scissors to Start!</h1>
+    <div id="container"> 
+    <p id="thisRound"></p>    
+    <p id="runningScore"></p>
+    <p id="gameResults"></p>
+ </div>
+
+ <div id="buttonGroup">
+  <button id="Rock">Rock</button>
+  <button id="Paper">Paper</button>
+  <button id="Scissors">Scissors</button>
+</div>
+      <div id="resetButton">
+        <button id="resetBtn">Reset Game</button>
+
+   <script src="rpps.js"> </script>
  </body>
 </html>
